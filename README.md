@@ -1,4 +1,6 @@
 # StatisticsUI
 1.16.x+ Spigot Plugin to check MC Statistics with a GUI
 
-Note this is still work in progress and  will be added to Github sometime in the future...
+Go to https://github.com/bj4rnee/NoDeathDespawn/releases for a precompiled .jar version!
+
+make sure to check out /stats show usage ingame
