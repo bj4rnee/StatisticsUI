@@ -1,0 +1,25 @@
+name: StatisticsUI
+author: bjarne.dev
+version: "1.2"
+main: dev.bjarne.statisticsUI.main
+description: See your and other player's statistics
+api-version: 1.13
+commands:
+    stats:
+        description: Used to list or execute all StatisticsUI commands.
+        aliases: [statistics, stats]
+permissions:
+    statsui.opengui.*:
+        description: Sets permissions for all StatisticsUI commands.
+        children:
+            statsui.opengui.self: true
+            statsui.opengui.others: true
+            statsui.opengui.admin: false
+    statsui.opengui.admin:
+        description: Allows all StatisticsUI commands
+        default: op
+    statsui.opengui.self:
+        description: Allows you to see your own stats
+    statsui.opengui.others:
+        description: Allows you to see the stats of someone else
+ 

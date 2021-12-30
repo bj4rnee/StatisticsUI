@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_241"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="//192.168.178.42/bjarne/MCBuildtools/Spigot/Spigot-API/target/spigot-api-1.16.1-R0.1-SNAPSHOT-shaded.jar"/>
+	<classpathentry kind="lib" path="//192.168.178.42/bjarne/MCServer/paper-136.jar"/>
+	<classpathentry kind="lib" path="//192.168.178.42/bjarne/MCServer/spigot-1.16.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
