@@ -1,0 +1,19 @@
+# Build output
+/build/
+/.gradle/
+
+# run-paper test server
+/run/
+
+# Legacy Eclipse project files
+/.classpath
+/.project
+/.settings/
+/bin/
+
+# IDE
+/.idea/
+*.iml
+
+# OS
+.DS_Store

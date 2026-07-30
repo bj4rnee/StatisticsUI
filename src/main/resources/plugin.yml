@@ -1,0 +1,21 @@
+name: StatisticsUI
+version: '${version}'
+main: dev.bjarne.statisticsui.StatisticsUIPlugin
+api-version: '1.20'
+author: bjarne.dev
+description: View Minecraft statistics in a GUI.
+commands:
+  stats:
+    description: View your own or another player's statistics.
+    usage: /stats [player]
+    aliases: [statistics]
+permissions:
+  statsui.view:
+    description: View your own statistics.
+    default: true
+  statsui.view.others:
+    description: View other players' statistics.
+    default: true
+  statsui.reload:
+    description: Reload the StatisticsUI configuration.
+    default: op

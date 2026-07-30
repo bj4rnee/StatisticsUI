@@ -1,0 +1,13 @@
+#########################################################################
+# StatisticsUI by bj4rne --- Configuration file
+# https://github.com/bj4rnee/StatisticsUI
+#########################################################################
+
+permissions:
+  # When false, anyone may use /stats. When true, the statsui.* permissions are enforced.
+  enabled: false
+
+cache:
+  # Offline players are read from disk, so their statistics are cached for this many seconds.
+  # Online players are always read live and never cached. Set to 0 to disable offline caching.
+  seconds: 300
