@@ -1,8 +1,9 @@
 name: StatisticsUI
+author: bjarne.dev
+website: https://bjarne.dev
 version: '${version}'
 main: dev.bjarne.statisticsui.StatisticsUIPlugin
 api-version: '1.20'
-author: bjarne.dev
 description: View Minecraft statistics in a GUI.
 commands:
   stats:
